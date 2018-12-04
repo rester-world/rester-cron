@@ -1,0 +1,6 @@
+reseter-cron:
+  container_name: rester-cron
+  image: rester-cron
+  restart: always
+  volumes:
+    - ./cfg:/var/rester-cron/cfg:ro
